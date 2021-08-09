@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, NavLink} from "react-router-dom";
+import { BrowserRouter as Router, NavLink, Redirect, Route} from "react-router-dom";
 import Home from "./pages/Home";
 import SEPractice from "./pages/SEPractice";
 import SubmitArticle from "./pages/SubmitArticle"; 
@@ -18,7 +18,9 @@ const App = () =>  {
             <div className="content">
               <Route exact path="/" component={Home}/>              
               <Route path="/SEPractice" component={SEPractice}/>             
-              <Route path="/SubmitArticle" component={S}/>
+              <Route path="/SubmitArticle" component={SubmitArticle}/>
+              <Route path="/404" component={NotFoundPage}/>
+              <Redirect to="/404"/>
             </div>
           </div> 
        </Router>
