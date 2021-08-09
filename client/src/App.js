@@ -16,10 +16,8 @@ const App = () =>  {
               <li><NavLink to="/SubmitArticle">Submit an Article</NavLink></li>
             </ul>
             <div className="content">
-              <Route exact path="/" component={Home}/>
-              
-              <Route path="/SEPractice" component={SEPractice}/>
-              
+              <Route exact path="/" component={Home}/>              
+              <Route path="/SEPractice" component={SEPractice}/>             
               <Route path="/SubmitArticle" component={S}/>
             </div>
           </div> 
