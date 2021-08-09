@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import SEPractice from "./pages/SEPractice";
 import SubmitArticle from "./pages/SubmitArticle"; 
 import NotFoundPage from "./pages/404";
+import "./index.css"
 
 const App = () =>  {
     return (
