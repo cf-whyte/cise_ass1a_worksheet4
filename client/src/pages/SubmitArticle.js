@@ -12,3 +12,4 @@ const SubmitArticle = () =>  {
 }
  
 export default SubmitArticle;
+ 
