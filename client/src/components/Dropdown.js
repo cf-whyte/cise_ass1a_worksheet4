@@ -1,5 +1,5 @@
 import React from 'react';
-import SEPractices from '../dummydata/SEPractices';
+import SEPractices from '../dummydata/SEpractices';
 
 const optionItems = SEPractices.map((SEPractice) => (
 	<option key={SEPractice.practice}>{SEPractice.practice}</option>
@@ -8,7 +8,7 @@ const optionItems = SEPractices.map((SEPractice) => (
 const Dropdown = () => {
 	return (
 		<div>
-			<select>{optionItems}</select>
+			<select><option value="">Select an SE Practice</option> {optionItems}</select>
 		</div>
 	);
 };

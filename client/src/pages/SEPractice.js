@@ -1,8 +1,8 @@
-import articles from '../dummydata/articles.js';
-import Styles from '../components/tablestyle.js';
-import Table from '../components/evidencetable.js';
-import tablecolumns from '../components/tablecolumns.js';
-import Dropdown from "../components/Dropdown.js";
+import articles from '../dummydata/articles';
+import Styles from '../components/TableStyle';
+import Table from '../components/EvidenceTable';
+import tablecolumns from '../components/TableColumns';
+import Dropdown from "../components/Dropdown";
 
 const SEPractice = () => {
 	return (
