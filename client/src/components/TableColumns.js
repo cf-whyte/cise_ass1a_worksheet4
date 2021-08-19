@@ -19,7 +19,6 @@ const tablecolumns = [
 		Header: 'DOI',
 		accessor: 'doi',
 	},
-	,
 	{
 		Header: 'Claimed Benefit',
 		accessor: 'claim',
